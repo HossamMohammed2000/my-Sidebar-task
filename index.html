@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="SideBar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="images/logo.jpg" alt="logo" />
+          </span>
+          <div class="text header-text">
+            <span class="name">Hossam Mohammed</span>
+            <span class="profession">Web Developer</span>
+          </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li>
+              <a href="#home" class="nav-link active" data-target="home">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link" data-target="about">
+                <i class="bx bx-info-circle icon"></i>
+                <span class="text">About Me</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link" data-target="projects">
+                <i class="bx bxs-folder"></i>
+                <span class="text">Projects</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#achievements"
+                class="nav-link"
+                data-target="achievements"
+              >
+                <i class="bx bxs-star"></i>
+                <span class="text">Achievements</span>
+              </a>
+            </li>
+            <li>
+              <a href="#Skills" class="nav-link" data-target="Skills">
+                <i class="bx bx-code-alt"></i>
+                <span class="text">Skills</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-content">
+          <li class="mode">
+           
+            <span class="mode-text text">Dark mode</span>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+        <footer class="footer">
+          <p>
+            Developed by <b>Hossam Mohammed</b> &copy; 2025
+            <a
+              href="https://www.linkedin.com/in/hossam-mohamed-15157822a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/HossamMohammed2000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <section class="page active" id="home">
+      <div class="design">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Passionate about crafting responsive, accessible, and visually
+          appealing web experiences.
+        </p>
+      </div>
+    </section>
+
+    <section class="page" id="about">
+      <div class="design">
+        <h1>About Me</h1>
+        <p>
+          Hello! I'm Hossam Mohammed | Front-end Developer specializing in
+          engineering clean and functional User Interfaces.
+        </p>
+      </div>
+    </section>
+
+    <section class="page" id="projects">
+      <div class="design">
+        <h1>Projects</h1>
+        <p>Explore my latest designs and interactive web apps.</p>
+        <br />
+        <a href="https://github.com/HossamMohammed2000?tab=repositories"
+          >Explore</a
+        >
+      </div>
+    </section>
+
+    <section class="cards" id="achievements"></section>
+
+    <section class="page" id="Skills">
+      <div class="design">
+        <h1>Skills</h1>
+        <p>
+          HTML · CSS · JavaScript · React —Designing websites that look great on
+          every device.
+        </p>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
