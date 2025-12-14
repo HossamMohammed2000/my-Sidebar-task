@@ -21,9 +21,14 @@ Responsive sidebar navigation component built with modern web technologies. Feat
 ## Quick Start
 
 1. Clone the repository
-   git clone https://github.com/HossamMohammed2000/my-Sidebar-task.git
 
-text 2. Open `index.html` in your browser 3. Enjoy the responsive sidebar!
+```
+   git clone https://github.com/HossamMohammed2000/my-Sidebar-task.git
+```
+
+2. Open `index.html` in your browser
+
+3. Enjoy the responsive sidebar!
 
 ## Demo
 
